@@ -26,7 +26,8 @@ pip install -r requirements.txt
 python portscan_dt_rf_svm.py
 
 ##**Results**
-
+![Screenshot](/results1.png)
+![Screenshot](/results2.png)
 
 ##**Sources / AI Disclosure**
 1. https://www.unb.ca/cic/datasets/ids-2017.html
