@@ -18,10 +18,10 @@ This code should be reproducible in any Linux environment, however, I have only 
 3. Download this GitHub repository
 4. Once everything is downloaded, move the python script from this repository into the /acn-network-intrusion-detection folder, and move the MachineLearningCSV folder, into the /acn-network-intrusion-detection folder as well. For the MachineLearningCSV folder, make sure that only the CSV files are in the folder (by default, the folder is nested such as MachineLearningCSV/MachineLearningCSV/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv). The folder should not be nested.
 5. In a terminal inside the /acn-network-intrusion-detection directory, run the following: 
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
+- python3 -m venv .venv
+- source .venv/bin/activate
+- pip install --upgrade pip
+- pip install -r requirements.txt
 6. Use the following command to run the program:
 python portscan_dt_rf_svm.py
 
